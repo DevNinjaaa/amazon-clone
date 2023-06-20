@@ -1,8 +1,0 @@
-type Query {
-  categories: [Categories]
-}
-
-type Categories {
-  category_id: String!
-  name: String
-}
