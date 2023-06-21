@@ -1,0 +1,12 @@
+type Query {
+  user: [User]
+  getUserById(user_id: ID): User
+}
+
+type User {
+  user_id: String!
+  username: String!
+  google_id: String!
+  google_photo: String!
+  created_at: String!
+}

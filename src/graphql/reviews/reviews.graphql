@@ -1,0 +1,10 @@
+type Query {
+  reviews: [Reviews]
+  getReviewByProductId(product_id: ID): Reviews
+}
+type Reviews {
+  review_id: String
+  user_id: String
+  product_id: String
+  rating: Int
+}

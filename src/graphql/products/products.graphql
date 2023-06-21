@@ -1,0 +1,25 @@
+type Query {
+  products: [Products]
+  files: [String]
+}
+type Products {
+  product_id: String
+  name: String
+  description: String
+  price: Float
+  image: String
+  category_id: String
+  availability: Boolean
+  quantity: Int
+  product_counter: Int
+}
+type Mutation {
+  setProduct(
+    name: String
+    description: String
+    price: Float
+    imge: String!
+    category_id: String
+    quantity: Int
+  ): Boolean
+}
