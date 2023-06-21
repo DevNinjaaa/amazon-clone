@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "boldfont";
+  src: url("./assets/fonts/Amazon Ember Bold Italic.ttf");
+}
+@font-face {
+  font-family: "boldfont";
+  src: url("./assets/fonts/Amazon Ember Bold.ttf");
+}
+@font-face {
+  font-family: "lightfont";
+  src: url("./assets/fonts/Amazon Ember Light.ttf");
+}
+@font-face {
+  font-family: "mediumfont";
+  src: url("./assets/fonts/Amazon Ember Medium.ttf");
+}

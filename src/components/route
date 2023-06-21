@@ -1,0 +1,50 @@
+import React, { useState, useCallback } from "react";
+import { gql, useMutation } from "@apollo/client";
+import { useDropzone } from "react-dropzone";
+
+export const Product = () => {
+  // // Define mutation hook
+  // const [setProduct, { data, loading, error }] =
+  //   useMutation(SET_PRODUCT_MUTATION);
+
+  // // Handle form submission
+  
+  // if (loading) return "Submitting...";
+  // if (error) return `Submission error! ${error.message}`;
+  return (
+    <div>
+      {/* <form onSubmit={handleSubmit} enctype="multipart/form-data">
+
+        <input
+          type="text"
+          name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="text"
+          name="description"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+        />
+        <input
+          type="text"
+          name="price"
+          value={price}
+          onChange={(e) => setPrice(e.target.value)}
+        />
+        <div {...getRootProps()}>
+          <input {...getInputProps()} />
+          <p>Drag 'n' drop some files here, or click to select files</p>
+        </div>{" "}
+        <input
+          type="text"
+          name="quantity"
+          value={quantity}
+          onChange={(e) => setQuantity(e.target.value)}
+        />
+        <input type="submit" value="submit" />
+      </form> */}
+    </div>
+  );
+};
